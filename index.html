@@ -1,0 +1,150 @@
+<!doctype html>
+<html>
+
+    <head>
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" type="text/css" href="estyle.css">
+        <title>TELA INICIAL DISCORD</title>
+    </head>
+    <div id="corpo">
+    <body>
+        <div>
+            <h1 id="titulo">Formulario de preenchimento</h1>
+            <br>
+        </div>
+
+
+
+
+
+<header>
+      <nav>
+        
+        <ul class="nav-list">
+          <li><a href="index.html" target="_blank">Início</a></li>
+          <li><a href="sobre.html" target="_blank">Sobre</a></li>
+          <li><a href="https://github.com/Dhon18" target="_blank">Projetos</a></li>
+          <li><a href="https://mail.google.com/mail/u/0/?tab=rm#inbox?compose=GTvVlcSKjskfGFpVkcqGMsJmlxqsSrsppRCxrSMSbhnpqQDBFzzSbThTrTnNVHBXrxVwldBgQvPdL" target="_blank">Contato</a></li>
+        </ul>
+      </nav>
+    </header>
+<br>
+<hr>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+        <br><form>
+
+            <fieldset class="grupo">
+                <div class="campo">
+                    <label for="NomeForm"><strong>Nome</strong></label>
+                    <input type="text" name="nome" id="NomeForm" required>
+                </div>
+
+                <div class="campo">
+                    <label for="SobrenomeForm"><strong>Sobrenome</strong></label>
+                    <input type="text" name="sobrenome" id="SobrenomeForm" required>
+                </div>
+            </fieldset> 
+
+            <div class="campo">
+                <label for="EmailForm"><strong>Email</strong></label>
+                <input type="email" name="email" id="EmailForm" required>
+            </div><br>
+
+            <password>
+    <label><strong>DEFINA SUA SENHA PADRÃO PARA CRIAR CONTA EM NOSSA PAGINA (INSINRA PELOMENOS 8 DIGITOS):</strong></label><br>
+    <input type="password" id="pass" name="password" minlength="8" required>
+            </password>
+
+            
+            <div class="campo">
+                <label><strong>Você é de qual etinia?</strong></label>
+                <strong>
+                <label>
+                    <input type="radio" name="estado" value="Ba" checked>Branco
+                </label>
+                <label>
+                    <input type="radio" name="estado" value="Sp">Pardo
+                </label>
+                <label>
+                    <input type="radio" name="estado" value="Rj">Negro
+                </label>
+                <label>
+                    <input type="radio" name="estado" value="Rj">Mulato
+                </label>
+                <label>
+                    <input type="radio" name="estado" value="Rj">Indigena
+                </label>
+                </strong>
+            </div>
+
+            
+            <div class="campo">
+                <label for="esta"><strong>Selecione seu Estado</strong></label>
+                <select id="esta" required>
+                  <option selected disabled value="">Selecione</option>
+                  <option>BA</option>
+                  <option>SP</option>
+                  <option>RJ</option>
+                  <option>MG</option>
+                  <option>MS</option>
+                  <option>GO</option>
+                  <option>BH</option>
+                  <option>ES</option>
+                  <option>VT</option>
+                  <option>RN</option>
+                  <option>RS</option>
+                </select>
+            </div><br>
+
+            <fieldset class="grupo">
+                <div id="check">
+                    <label><strong>Avalie nossa Pagina com Multiplas Escolhas:</strong></label><br><br>
+
+                    
+                    <input type="checkbox" id="op1" name="op1" value="SOAAP2">
+                    <label for="tecnologia1"> Ruim</label><br>
+                    
+                    <input type="checkbox" id="op2" name="op2" value="SOAAP3">
+                    <label for="tecnologia2"> Boa</label><br>
+                    
+                    <input type="checkbox" id="op3" name="op3" value="SOAAP4">
+                    <label for="tecnologia3"> Otima</label>
+                </div>
+            </fieldset>
+
+            
+            <div class="campo">
+                <br>
+                <label for="experiencia"><strong>Conte um pouco mais da sua experiência com nossa pagina: </strong></label><br>
+                <textarea rows="6" id="experiencia" name="experiencia"></textarea>
+            </div><br>
+
+
+            <label><strong>Nos Envie uma Carta com Mais Detalhes se Preferir:</strong></label><br><br>
+            <input id="enviararquivo" type="file" name="arquivos" class="btn btn-success" multiple/><br><br>
+            <button class="botao" type="submit" onsubmit="" id="BotaoEnviar">Enviar</button>
+            <reset>          
+            <input type="reset" name="reset" id="Limpar">
+            </reset>
+          
+
+        </form>
+
+    </body>
+    </div>
+
+</html>
